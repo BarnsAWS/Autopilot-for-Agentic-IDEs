@@ -1,8 +1,8 @@
 # Autopilot for Agentic IDEs
 
-> **Antigravity for your AI agent.** Remove the friction that keeps agentic IDEs grounded — approval dialogs, iteration caps, mid-task halts — and let your agent fly through tasks without ever touching the ground.
+> **Autopilot for agentic IDEs.** Enable full autonomous agent operation across VS Code, Kiro IDE, and Antigravity — removes approval dialogs, iteration caps, and mid-task halts so your agent can complete tasks end-to-end without interruption.
 
-Autopilot for Agentic IDEs is a set of Windows scripts that configure **VS Code** and **Kiro IDE** for maximum autonomous agent operation. One script per IDE. No manual JSON editing. Fully idempotent — safe to re-run at any time.
+Autopilot for Agentic IDEs is a set of Windows scripts that configure **VS Code**, **Kiro IDE**, and **Antigravity** for maximum autonomous agent operation. One script per IDE. No manual JSON editing. Fully idempotent — safe to re-run at any time.
 
 ---
 
@@ -20,9 +20,13 @@ Autopilot for Agentic IDEs is a set of Windows scripts that configure **VS Code*
 
 ---
 
-## The Antigravity Analogy
+## Supported IDEs
 
-Standard agentic IDEs operate with gravity: every action pulls the agent back down to earth, asking "Are you sure?" before each file write, capping iterations at a low default, and stopping dead when it runs out of things to say. This project is the antigravity switch. Flip it once and the agent stays airborne — executing tasks end-to-end, retrying failures automatically, and resuming itself if it ever stalls.
+This project enables autopilot mode on three leading agentic IDEs:
+
+- **VS Code** with GitHub Copilot — Enables agent mode, suppresses approval dialogs, and raises iteration limits
+- **Kiro IDE** (Amazon's agentic IDE) — Configures autopilot mode and deploys persistent steering instructions
+- **Antigravity** (Google's agentic IDE) — Enables full autonomous operation with automatic retry and resumption capabilities
 
 ---
 
